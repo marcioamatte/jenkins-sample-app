@@ -14,4 +14,12 @@ describe('Testing with jest for CI/CD with Jenkins and GitHub', () => {
         let result = sum(2, 1)
         expect(result).not.toBe(4)
     })
+
+    test('Result should be 0', () => {
+        const {
+            sum
+        } = require('../src/operations')
+        let result = sum(1, -1)
+        expect(result).toBe(0)
+    })
 })
