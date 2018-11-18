@@ -1,0 +1,26 @@
+{
+  "name": "jenkins-sample-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcioamatte/jenkins-sample-app.git"
+  },
+  "keywords": ["NODEJS"],
+  "author": "Marcio Angelo Matté <marcioamatte@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcioamatte/jenkins-sample-app/issues"
+  },
+  "homepage": "https://github.com/marcioamatte/jenkins-sample-app#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
