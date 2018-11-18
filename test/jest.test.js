@@ -22,4 +22,7 @@ describe('Testing with jest for CI/CD with Jenkins and GitHub', () => {
         let result = sum(1, -1)
         expect(result).toBe(0)
     })
+    test('Thruty test', () => {
+        expect(1+1).toBe(2)
+    })
 })
